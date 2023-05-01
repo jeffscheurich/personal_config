@@ -1,0 +1,128 @@
+[
+	{
+		"key": "ctrl+j",
+		"label": "Left tab",
+		"action": "prevtab",
+		"sites": "",
+		"sitesArray": [
+			""
+		],
+		"activeInInputs": true,
+		"blacklist": false
+	},
+	{
+		"key": "ctrl+k",
+		"label": "Right tab",
+		"action": "nexttab",
+		"sites": "",
+		"sitesArray": [
+			""
+		],
+		"activeInInputs": true,
+		"blacklist": false
+	},
+	{
+		"key": "ctrl+b",
+		"label": "Scroll down",
+		"action": "scrolldownmore",
+		"sites": "",
+		"sitesArray": [
+			""
+		],
+		"activeInInputs": true,
+		"blacklist": false,
+		"smoothScrolling": true
+	},
+	{
+		"key": "ctrl+u",
+		"label": "Scroll up",
+		"action": "scrollupmore",
+		"sites": "",
+		"sitesArray": [
+			""
+		],
+		"activeInInputs": true,
+		"blacklist": false,
+		"smoothScrolling": true
+	},
+	{
+		"key": "ctrl+p",
+		"sites": "",
+		"sitesArray": [
+			""
+		],
+		"action": "newprivatewindow",
+		"label": "Private window"
+	},
+	{
+		"action": "scrollleftmore",
+		"key": "ctrl+shift+u",
+		"label": "Scroll left",
+		"sites": "",
+		"sitesArray": [
+			""
+		],
+		"smoothScrolling": true,
+		"activeInInputs": true,
+		"blacklist": false
+	},
+	{
+		"key": "ctrl+shift+b",
+		"label": "Scroll right",
+		"sites": "",
+		"sitesArray": [
+			""
+		],
+		"action": "scrollrightmore",
+		"smoothScrolling": true,
+		"activeInInputs": true,
+		"blacklist": false
+	},
+	{
+		"key": "ctrl+shift+j",
+		"label": "Move tab left",
+		"action": "movetableft",
+		"activeInInputs": true,
+		"blacklist": false,
+		"sites": "",
+		"sitesArray": [
+			""
+		]
+	},
+	{
+		"action": "movetabright",
+		"key": "ctrl+shift+k",
+		"sites": "",
+		"sitesArray": [
+			""
+		],
+		"label": "Move tab right"
+	},
+	{
+		"key": "ctrl+shift+o",
+		"label": "Reopen tab",
+		"action": "reopentab",
+		"sites": "",
+		"sitesArray": [
+			""
+		]
+	},
+	{
+		"action": "back",
+		"key": "ctrl+i",
+		"label": "Go back",
+		"sites": "",
+		"sitesArray": [
+			""
+		]
+	},
+	{
+		"key": "ctrl+o",
+		"label": "Go Forward",
+		"action": "forward",
+		"sites": "",
+		"sitesArray": [
+			""
+		]
+	}
+]
