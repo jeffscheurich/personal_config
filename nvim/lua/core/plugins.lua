@@ -15,16 +15,17 @@ return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 	use 'ellisonleao/gruvbox.nvim'
 	use({ 'projekt0n/github-nvim-theme', tag = 'v0.0.7' })
+	use 'aktersnurra/no-clown-fiesta.nvim'
 	use 'nvim-tree/nvim-tree.lua'
 	use 'nvim-tree/nvim-web-devicons'
 	use 'nvim-lualine/lualine.nvim'
 	-- use 'nvim-treesitter/nvim-treesitter'
-	use 'monkoose/matchparen.nvim'
 	use {
-		"williamboman/mason.nvim",
-		"williamboman/mason-lspconfig.nvim",
-		"neovim/nvim-lspconfig",
+		'williamboman/mason.nvim',
+		'williamboman/mason-lspconfig.nvim',
+		'neovim/nvim-lspconfig',
 	}
+	use 'mfussenegger/nvim-jdtls'
 	use {
 		'nvim-telescope/telescope.nvim',
 		tag = '0.1.0',
@@ -39,7 +40,11 @@ return require('packer').startup(function(use)
 	-- Snippets
 	use 'dcampos/nvim-snippy'
 	use 'dcampos/cmp-snippy'
-
+	-- Indentation Markers
+	use 'lukas-reineke/indent-blankline.nvim'
+	use 'voldikss/vim-floaterm'
+	use 'elihunter173/dirbuf.nvim'
+	use 'm4xshen/autoclose.nvim'
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if packer_bootstrap then
